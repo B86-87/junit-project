@@ -36,7 +36,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -52,16 +52,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Day01_BasicNavigations">
-    <configuration name="Day01_BasicNavigations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day01_BasicNavigations" />
+  <component name="RunManager" selected="JUnit.Day02_LocatorsIntro.login">
+    <configuration name="Day02_GetPageSource" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day02_GetPageSource" />
       <module name="myseleniumproject" />
       <extension name="coverage">
         <pattern>
@@ -73,8 +76,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstSeleniumClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.FirstSeleniumClass" />
+    <configuration name="Day02_Assertions.assertions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myseleniumproject" />
       <extension name="coverage">
         <pattern>
@@ -82,14 +84,68 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.myfirstproject" />
+      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day02_Assertions" />
+      <option name="METHOD_NAME" value="assertions" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day02_JUnitAnnotations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myseleniumproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myfirstproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myfirstproject" />
+      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day02_JUnitAnnotations" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day02_JUnitAnnotations.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myseleniumproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myfirstproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myfirstproject" />
+      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day02_JUnitAnnotations" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day02_LocatorsIntro.login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myseleniumproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myfirstproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myfirstproject" />
+      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day02_LocatorsIntro" />
+      <option name="METHOD_NAME" value="login" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Day01_BasicNavigations" />
-        <item itemvalue="Application.FirstSeleniumClass" />
+        <item itemvalue="JUnit.Day02_LocatorsIntro.login" />
+        <item itemvalue="JUnit.Day02_Assertions.assertions" />
+        <item itemvalue="JUnit.Day02_JUnitAnnotations" />
+        <item itemvalue="JUnit.Day02_JUnitAnnotations.test1" />
+        <item itemvalue="Application.Day02_GetPageSource" />
       </list>
     </recent_temporary>
   </component>
@@ -114,31 +170,49 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2337" height="72" key="GridCell.Tab.0.bottom" timestamp="1660502859267">
-      <screen x="69" y="25" width="2491" height="1415" />
-    </state>
-    <state width="2508" height="378" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1660501773646" />
-    <state width="2337" height="72" key="GridCell.Tab.0.bottom/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1660502859267" />
-    <state width="2337" height="72" key="GridCell.Tab.0.center" timestamp="1660502859266">
-      <screen x="69" y="25" width="2491" height="1415" />
-    </state>
-    <state width="2508" height="378" key="GridCell.Tab.0.center/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1660501773646" />
-    <state width="2337" height="72" key="GridCell.Tab.0.center/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1660502859266" />
-    <state width="2337" height="72" key="GridCell.Tab.0.left" timestamp="1660502859266">
-      <screen x="69" y="25" width="2491" height="1415" />
-    </state>
-    <state width="2508" height="378" key="GridCell.Tab.0.left/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1660501773645" />
-    <state width="2337" height="72" key="GridCell.Tab.0.left/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1660502859266" />
-    <state width="2337" height="72" key="GridCell.Tab.0.right" timestamp="1660502859267">
-      <screen x="69" y="25" width="2491" height="1415" />
-    </state>
-    <state width="2508" height="378" key="GridCell.Tab.0.right/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1660501773646" />
-    <state width="2337" height="72" key="GridCell.Tab.0.right/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1660502859267" />
-    <state x="664" y="268" key="SettingsEditor" timestamp="1660494364085">
+    <state x="942" y="507" key="#Notifications" timestamp="1660506976871">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="664" y="268" key="SettingsEditor/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1660494364085" />
+    <state x="942" y="507" key="#Notifications/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1660506976871" />
+    <state x="100" y="100" width="2360" height="1240" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1660611526853">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="100" y="100" width="2360" height="1240" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1660611526853" />
+    <state width="2508" height="277" key="GridCell.Tab.0.bottom" timestamp="1660614511081">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2508" height="277" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1660614511081" />
+    <state width="2370" height="552" key="GridCell.Tab.0.bottom/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1660607624718" />
+    <state width="2508" height="277" key="GridCell.Tab.0.center" timestamp="1660614511080">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2508" height="277" key="GridCell.Tab.0.center/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1660614511080" />
+    <state width="2370" height="552" key="GridCell.Tab.0.center/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1660607624716" />
+    <state width="2508" height="277" key="GridCell.Tab.0.left" timestamp="1660614511078">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2508" height="277" key="GridCell.Tab.0.left/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1660614511078" />
+    <state width="2370" height="552" key="GridCell.Tab.0.left/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1660607624714" />
+    <state width="2508" height="277" key="GridCell.Tab.0.right" timestamp="1660614511081">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2508" height="277" key="GridCell.Tab.0.right/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1660614511081" />
+    <state width="2370" height="552" key="GridCell.Tab.0.right/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1660607624716" />
+    <state x="715" y="288" width="1537" height="903" key="SettingsEditor" timestamp="1660606933292">
+      <screen x="69" y="25" width="2491" height="1415" />
+    </state>
+    <state x="664" y="268" width="1537" height="903" key="SettingsEditor/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1660506690152" />
+    <state x="715" y="288" key="SettingsEditor/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1660606933292" />
+    <state x="486" y="310" key="new project wizard" timestamp="1660605037696">
+      <screen x="69" y="25" width="2491" height="1415" />
+    </state>
+    <state x="486" y="310" key="new project wizard/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1660605037696" />
+    <state x="861" y="324" width="838" height="1032" key="search.everywhere.popup" timestamp="1660506663904">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="861" y="324" width="838" height="1032" key="search.everywhere.popup/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1660506663904" />
   </component>
 </project>
