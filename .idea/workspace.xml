@@ -62,20 +62,7 @@
       <recent name="$PROJECT_DIR$/drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Day02_LocatorsIntro.login">
-    <configuration name="Day02_GetPageSource" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day02_GetPageSource" />
-      <module name="myseleniumproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.myfirstproject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Day03_Checkbox.checkboxTest">
     <configuration name="Day02_Assertions.assertions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myseleniumproject" />
       <extension name="coverage">
@@ -107,22 +94,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day02_JUnitAnnotations.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myseleniumproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.myfirstproject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.myfirstproject" />
-      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day02_JUnitAnnotations" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Day02_LocatorsIntro.login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myseleniumproject" />
       <extension name="coverage">
@@ -139,13 +110,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day03_Checkbox.checkboxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myseleniumproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myfirstproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myfirstproject" />
+      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day03_Checkbox" />
+      <option name="METHOD_NAME" value="checkboxTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testw.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myseleniumproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myfirstproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myfirstproject" />
+      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.testw" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Day03_Checkbox.checkboxTest" />
         <item itemvalue="JUnit.Day02_LocatorsIntro.login" />
+        <item itemvalue="JUnit.testw.test" />
         <item itemvalue="JUnit.Day02_Assertions.assertions" />
         <item itemvalue="JUnit.Day02_JUnitAnnotations" />
-        <item itemvalue="JUnit.Day02_JUnitAnnotations.test1" />
-        <item itemvalue="Application.Day02_GetPageSource" />
       </list>
     </recent_temporary>
   </component>
@@ -181,26 +184,26 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="100" y="100" width="2360" height="1240" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1660611526853" />
-    <state width="2508" height="277" key="GridCell.Tab.0.bottom" timestamp="1660614511081">
+    <state width="2508" height="71" key="GridCell.Tab.0.bottom" timestamp="1660700607050">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="277" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1660614511081" />
-    <state width="2370" height="552" key="GridCell.Tab.0.bottom/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1660607624718" />
-    <state width="2508" height="277" key="GridCell.Tab.0.center" timestamp="1660614511080">
+    <state width="2508" height="71" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1660700607050" />
+    <state width="2279" height="288" key="GridCell.Tab.0.bottom/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1660695333722" />
+    <state width="2508" height="71" key="GridCell.Tab.0.center" timestamp="1660700607049">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="277" key="GridCell.Tab.0.center/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1660614511080" />
-    <state width="2370" height="552" key="GridCell.Tab.0.center/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1660607624716" />
-    <state width="2508" height="277" key="GridCell.Tab.0.left" timestamp="1660614511078">
+    <state width="2508" height="71" key="GridCell.Tab.0.center/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1660700607049" />
+    <state width="2279" height="288" key="GridCell.Tab.0.center/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1660695333721" />
+    <state width="2508" height="71" key="GridCell.Tab.0.left" timestamp="1660700607048">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="277" key="GridCell.Tab.0.left/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1660614511078" />
-    <state width="2370" height="552" key="GridCell.Tab.0.left/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1660607624714" />
-    <state width="2508" height="277" key="GridCell.Tab.0.right" timestamp="1660614511081">
+    <state width="2508" height="71" key="GridCell.Tab.0.left/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1660700607048" />
+    <state width="2279" height="288" key="GridCell.Tab.0.left/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1660695333720" />
+    <state width="2508" height="71" key="GridCell.Tab.0.right" timestamp="1660700607049">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="277" key="GridCell.Tab.0.right/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1660614511081" />
-    <state width="2370" height="552" key="GridCell.Tab.0.right/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1660607624716" />
+    <state width="2508" height="71" key="GridCell.Tab.0.right/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1660700607049" />
+    <state width="2279" height="288" key="GridCell.Tab.0.right/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1660695333721" />
     <state x="715" y="288" width="1537" height="903" key="SettingsEditor" timestamp="1660606933292">
       <screen x="69" y="25" width="2491" height="1415" />
     </state>
