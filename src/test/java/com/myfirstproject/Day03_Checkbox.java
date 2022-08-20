@@ -42,6 +42,7 @@ public class Day03_Checkbox {
         }
 //        Then verify that checkbox1 is checked.
         Assert.assertTrue(checkbox1.isSelected());
+
     }
 
     /*
