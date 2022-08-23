@@ -23,10 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42f77903-949c-48de-99cb-71e73953a63e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day05_Alerts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day05_GoogleSearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day05_TestBaseDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/utilities/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day06_Iframe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day06_WindowHandle1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day06_WindowHandle2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../abc/abc.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../com.companyname/com.companyname.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../com.techproed-pom/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../com.techproed-pom/.gitignore" afterDir="false" />
@@ -90,7 +89,6 @@
       <change beforePath="$PROJECT_DIR$/../mymavenproject1/src/test/java/com/techproed/RadioButton.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../mymavenproject1/src/test/java/com/techproed/SignInHomework.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day04_Dropdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day04_Dropdown.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../testNGframework/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../testNGframework/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../testNGframework/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../testNGframework/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../testNGframework/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../testNGframework/.idea/misc.xml" afterDir="false" />
@@ -144,7 +142,7 @@
       <recent name="$PROJECT_DIR$/drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Day05_GoogleSearchTest.searchTest">
+  <component name="RunManager" selected="JUnit.Day06_WindowHandle2.newWindowTest">
     <configuration name="Day05_Alerts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myseleniumproject" />
       <extension name="coverage">
@@ -156,38 +154,6 @@
       <option name="PACKAGE_NAME" value="com.myfirstproject" />
       <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day05_Alerts" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day05_Alerts.acceptAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myseleniumproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.myfirstproject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.myfirstproject" />
-      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day05_Alerts" />
-      <option name="METHOD_NAME" value="acceptAlert" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day05_Alerts.dismissAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myseleniumproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.myfirstproject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.myfirstproject" />
-      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day05_Alerts" />
-      <option name="METHOD_NAME" value="dismissAlert" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -208,7 +174,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day05_TestBaseDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day06_Iframe.iframeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myseleniumproject" />
       <extension name="coverage">
         <pattern>
@@ -217,19 +183,52 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.myfirstproject" />
-      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day05_TestBaseDemo" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day06_Iframe" />
+      <option name="METHOD_NAME" value="iframeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day06_WindowHandle1.windowHandleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myseleniumproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myfirstproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myfirstproject" />
+      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day06_WindowHandle1" />
+      <option name="METHOD_NAME" value="windowHandleTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day06_WindowHandle2.newWindowTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myseleniumproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myfirstproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myfirstproject" />
+      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day06_WindowHandle2" />
+      <option name="METHOD_NAME" value="newWindowTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Day06_WindowHandle2.newWindowTest" />
+        <item itemvalue="JUnit.Day06_WindowHandle1.windowHandleTest" />
+        <item itemvalue="JUnit.Day06_Iframe.iframeTest" />
         <item itemvalue="JUnit.Day05_GoogleSearchTest.searchTest" />
         <item itemvalue="JUnit.Day05_Alerts" />
-        <item itemvalue="JUnit.Day05_Alerts.dismissAlert" />
-        <item itemvalue="JUnit.Day05_Alerts.acceptAlert" />
-        <item itemvalue="JUnit.Day05_TestBaseDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -269,26 +268,34 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="981" y="570" width="597" height="312" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1661094419354" />
-    <state width="2358" height="61" key="GridCell.Tab.0.bottom" timestamp="1661098718465">
-      <screen x="69" y="25" width="2491" height="1415" />
+    <state width="2508" height="56" key="GridCell.Tab.0.bottom" timestamp="1661218430730">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="61" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1661098007040" />
-    <state width="2358" height="61" key="GridCell.Tab.0.bottom/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1661098718465" />
-    <state width="2358" height="61" key="GridCell.Tab.0.center" timestamp="1661098718464">
-      <screen x="69" y="25" width="2491" height="1415" />
+    <state width="2508" height="56" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1661218430730" />
+    <state width="2358" height="400" key="GridCell.Tab.0.bottom/65.25.2495.1415/2560.25.1920.1055@65.25.2495.1415" timestamp="1661100448481" />
+    <state width="2358" height="400" key="GridCell.Tab.0.bottom/67.25.2493.1415/2560.25.1920.1055@67.25.2493.1415" timestamp="1661100412015" />
+    <state width="2264" height="228" key="GridCell.Tab.0.bottom/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1661214885897" />
+    <state width="2508" height="56" key="GridCell.Tab.0.center" timestamp="1661218430730">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="61" key="GridCell.Tab.0.center/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1661098007039" />
-    <state width="2358" height="61" key="GridCell.Tab.0.center/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1661098718464" />
-    <state width="2358" height="61" key="GridCell.Tab.0.left" timestamp="1661098718463">
-      <screen x="69" y="25" width="2491" height="1415" />
+    <state width="2508" height="56" key="GridCell.Tab.0.center/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1661218430730" />
+    <state width="2358" height="400" key="GridCell.Tab.0.center/65.25.2495.1415/2560.25.1920.1055@65.25.2495.1415" timestamp="1661100448480" />
+    <state width="2358" height="400" key="GridCell.Tab.0.center/67.25.2493.1415/2560.25.1920.1055@67.25.2493.1415" timestamp="1661100412015" />
+    <state width="2264" height="228" key="GridCell.Tab.0.center/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1661214885896" />
+    <state width="2508" height="56" key="GridCell.Tab.0.left" timestamp="1661218430729">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="61" key="GridCell.Tab.0.left/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1661098007038" />
-    <state width="2358" height="61" key="GridCell.Tab.0.left/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1661098718463" />
-    <state width="2358" height="61" key="GridCell.Tab.0.right" timestamp="1661098718464">
-      <screen x="69" y="25" width="2491" height="1415" />
+    <state width="2508" height="56" key="GridCell.Tab.0.left/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1661218430729" />
+    <state width="2358" height="400" key="GridCell.Tab.0.left/65.25.2495.1415/2560.25.1920.1055@65.25.2495.1415" timestamp="1661100448480" />
+    <state width="2358" height="400" key="GridCell.Tab.0.left/67.25.2493.1415/2560.25.1920.1055@67.25.2493.1415" timestamp="1661100412014" />
+    <state width="2264" height="228" key="GridCell.Tab.0.left/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1661214885895" />
+    <state width="2508" height="56" key="GridCell.Tab.0.right" timestamp="1661218430730">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="61" key="GridCell.Tab.0.right/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1661098007039" />
-    <state width="2358" height="61" key="GridCell.Tab.0.right/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1661098718464" />
+    <state width="2508" height="56" key="GridCell.Tab.0.right/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1661218430730" />
+    <state width="2358" height="400" key="GridCell.Tab.0.right/65.25.2495.1415/2560.25.1920.1055@65.25.2495.1415" timestamp="1661100448481" />
+    <state width="2358" height="400" key="GridCell.Tab.0.right/67.25.2493.1415/2560.25.1920.1055@67.25.2493.1415" timestamp="1661100412015" />
+    <state width="2264" height="228" key="GridCell.Tab.0.right/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1661214885896" />
     <state x="715" y="288" width="1537" height="903" key="SettingsEditor" timestamp="1660606933292">
       <screen x="69" y="25" width="2491" height="1415" />
     </state>
