@@ -11,7 +11,7 @@ public class Day07_Actions2 extends TestBase {
 
 
     @Test
-    public void hoverOverTest(){
+    public void hoverOverTest() {
 //    Given user is on the https://www.amazon.com/
         driver.get("https://www.amazon.com/");
 //    When use click on “Account” link
