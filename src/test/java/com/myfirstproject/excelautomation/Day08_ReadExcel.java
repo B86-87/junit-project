@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ReadExcel {
+public class Day08_ReadExcel {
 //    Workbook > Worksheet > Row > Cell
     @Test
     public void readExcel() throws IOException {
