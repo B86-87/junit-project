@@ -23,13 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42f77903-949c-48de-99cb-71e73953a63e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day08_Actions3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day08_Actions4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day08_FileDownloadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day08_FileExist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day08_FileUpload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/excelautomation/ReadExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/capitals.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/homework/AccountCreation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/homework/AmazonDropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/homework/IFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../abc/abc.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../com.companyname/com.companyname.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../com.techproed-pom/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../com.techproed-pom/.gitignore" afterDir="false" />
@@ -93,8 +89,6 @@
       <change beforePath="$PROJECT_DIR$/../mymavenproject1/src/test/java/com/techproed/RadioButton.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../mymavenproject1/src/test/java/com/techproed/SignInHomework.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day07_Actions2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day07_Actions2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../testNGframework/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../testNGframework/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../testNGframework/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../testNGframework/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../testNGframework/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../testNGframework/.idea/misc.xml" afterDir="false" />
@@ -134,6 +128,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -152,65 +147,65 @@
       <recent name="$PROJECT_DIR$/drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ReadExcel.readExcel">
-    <configuration name="Day08_FileDownloadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.IFrame.iframeTest">
+    <configuration name="AccountCreation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myseleniumproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.myfirstproject.*" />
+          <option name="PATTERN" value="com.myfirstproject.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.myfirstproject" />
-      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day08_FileDownloadTest" />
+      <option name="PACKAGE_NAME" value="com.myfirstproject.homework" />
+      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.homework.AccountCreation" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day08_FileDownloadTest.downloadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AccountCreation.signInClick" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myseleniumproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.myfirstproject.*" />
+          <option name="PATTERN" value="com.myfirstproject.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.myfirstproject" />
-      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day08_FileDownloadTest" />
-      <option name="METHOD_NAME" value="downloadTest" />
+      <option name="PACKAGE_NAME" value="com.myfirstproject.homework" />
+      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.homework.AccountCreation" />
+      <option name="METHOD_NAME" value="signInClick" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day08_FileExist.isExist1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AmazonDropdown.dropdownTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myseleniumproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.myfirstproject.*" />
+          <option name="PATTERN" value="com.myfirstproject.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.myfirstproject" />
-      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day08_FileExist" />
-      <option name="METHOD_NAME" value="isExist1" />
+      <option name="PACKAGE_NAME" value="com.myfirstproject.homework" />
+      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.homework.AmazonDropdown" />
+      <option name="METHOD_NAME" value="dropdownTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day08_FileUpload.fileUploadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IFrame.iframeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myseleniumproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.myfirstproject.*" />
+          <option name="PATTERN" value="com.myfirstproject.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.myfirstproject" />
-      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day08_FileUpload" />
-      <option name="METHOD_NAME" value="fileUploadTest" />
+      <option name="PACKAGE_NAME" value="com.myfirstproject.homework" />
+      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.homework.IFrame" />
+      <option name="METHOD_NAME" value="iframeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -234,11 +229,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IFrame.iframeTest" />
+        <item itemvalue="JUnit.AmazonDropdown.dropdownTest" />
+        <item itemvalue="JUnit.AccountCreation.signInClick" />
         <item itemvalue="JUnit.ReadExcel.readExcel" />
-        <item itemvalue="JUnit.Day08_FileUpload.fileUploadTest" />
-        <item itemvalue="JUnit.Day08_FileDownloadTest" />
-        <item itemvalue="JUnit.Day08_FileDownloadTest.downloadTest" />
-        <item itemvalue="JUnit.Day08_FileExist.isExist1" />
       </list>
     </recent_temporary>
   </component>
@@ -290,34 +284,34 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="490" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1661305021830" />
-    <state width="2508" height="390" key="GridCell.Tab.0.bottom" timestamp="1661629495011">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="2282" height="197" key="GridCell.Tab.0.bottom" timestamp="1661695852776">
+      <screen x="69" y="25" width="2491" height="1415" />
     </state>
     <state width="2508" height="390" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1661629495011" />
     <state width="2253" height="818" key="GridCell.Tab.0.bottom/65.25.2495.1415/2560.25.1920.1055@65.25.2495.1415" timestamp="1661618449301" />
     <state width="2253" height="334" key="GridCell.Tab.0.bottom/67.25.2493.1415/2560.25.1920.1055@67.25.2493.1415" timestamp="1661618423766" />
-    <state width="2282" height="725" key="GridCell.Tab.0.bottom/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1661625888642" />
-    <state width="2508" height="390" key="GridCell.Tab.0.center" timestamp="1661629495010">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="2282" height="197" key="GridCell.Tab.0.bottom/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1661695852776" />
+    <state width="2282" height="197" key="GridCell.Tab.0.center" timestamp="1661695852773">
+      <screen x="69" y="25" width="2491" height="1415" />
     </state>
     <state width="2508" height="390" key="GridCell.Tab.0.center/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1661629495010" />
     <state width="2253" height="818" key="GridCell.Tab.0.center/65.25.2495.1415/2560.25.1920.1055@65.25.2495.1415" timestamp="1661618449300" />
     <state width="2253" height="334" key="GridCell.Tab.0.center/67.25.2493.1415/2560.25.1920.1055@67.25.2493.1415" timestamp="1661618423765" />
-    <state width="2282" height="725" key="GridCell.Tab.0.center/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1661625888641" />
-    <state width="2508" height="390" key="GridCell.Tab.0.left" timestamp="1661629495009">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="2282" height="197" key="GridCell.Tab.0.center/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1661695852773" />
+    <state width="2282" height="197" key="GridCell.Tab.0.left" timestamp="1661695852772">
+      <screen x="69" y="25" width="2491" height="1415" />
     </state>
     <state width="2508" height="390" key="GridCell.Tab.0.left/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1661629495009" />
     <state width="2253" height="818" key="GridCell.Tab.0.left/65.25.2495.1415/2560.25.1920.1055@65.25.2495.1415" timestamp="1661618449295" />
     <state width="2253" height="334" key="GridCell.Tab.0.left/67.25.2493.1415/2560.25.1920.1055@67.25.2493.1415" timestamp="1661618423764" />
-    <state width="2282" height="725" key="GridCell.Tab.0.left/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1661625888640" />
-    <state width="2508" height="390" key="GridCell.Tab.0.right" timestamp="1661629495010">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="2282" height="197" key="GridCell.Tab.0.left/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1661695852772" />
+    <state width="2282" height="197" key="GridCell.Tab.0.right" timestamp="1661695852774">
+      <screen x="69" y="25" width="2491" height="1415" />
     </state>
     <state width="2508" height="390" key="GridCell.Tab.0.right/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1661629495010" />
     <state width="2253" height="818" key="GridCell.Tab.0.right/65.25.2495.1415/2560.25.1920.1055@65.25.2495.1415" timestamp="1661618449301" />
     <state width="2253" height="334" key="GridCell.Tab.0.right/67.25.2493.1415/2560.25.1920.1055@67.25.2493.1415" timestamp="1661618423765" />
-    <state width="2282" height="725" key="GridCell.Tab.0.right/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1661625888641" />
+    <state width="2282" height="197" key="GridCell.Tab.0.right/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1661695852774" />
     <state x="664" y="268" width="1537" height="903" key="SettingsEditor" timestamp="1661609648219">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
