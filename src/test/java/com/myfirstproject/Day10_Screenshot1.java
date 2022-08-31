@@ -37,7 +37,6 @@ public class Day10_Screenshot1 extends TestBase {
 //        File image = ts.getScreenshotAs(OutputType.FILE);
 
 //       2. Save screenshot
-
 //        getting the current time as string to use in teh screenshot name, previous screenshots will be kept
         String currentTime = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 
