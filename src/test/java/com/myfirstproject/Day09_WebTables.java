@@ -1,6 +1,8 @@
 package com.myfirstproject;
 
 import com.myfirstproject.utilities.TestBase;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -8,24 +10,29 @@ import org.openqa.selenium.WebElement;
 import java.util.List;
 
 public class Day09_WebTables extends TestBase {
-
+    private static Logger logger = LogManager.getLogger(Day09_WebTables.class.getName());
 
     @Test
     public void printTable(){
 //    https://the-internet.herokuapp.com/tables
+        logger.info("Going to the main page");
         driver.get("https://the-internet.herokuapp.com/tables");
 //    Task 1 : Print the entire table
-        System.out.println("***Print Entire Table***");
+
+        logger.info("***Print Entire Table***");
+//        System.out.println("***Print Entire Table***");
         String table = driver.findElement(By.xpath("//table[@id='table1']")).getText();
         System.out.println(table);
 
-        System.out.println("***Print All Table Data***");
+        logger.info("***Print All Table Data***");
+//        System.out.println("***Print All Table Data***");
         List<WebElement> allData = driver.findElements(By.xpath("//table[@id='table1']//td"));
         for (WebElement eachData : allData){
             System.out.println(eachData.getText());
         }
         System.out.println("10th data in the table : " + allData.get(10).getText());
 
+        logger.info("TESTING COMPLETE. YAAAAAYYYYYYYYY");
     }
 
 

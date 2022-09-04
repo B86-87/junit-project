@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Properties>
+        <Property name="basePath">target/logs</Property>
+    </Properties>
+    <!--    Appenders : where to show the logs. console, file, ... -->
+    <Appenders>
+        <!--        formatting fileName for dynamic name generation-->
+        <RollingFile name="file"
+                     filePattern="${basePath}/TechProEd-%d{HH-mm-ss-SSS}.log">
+            <PatternLayout>
+                <pattern>%d %p %c{1.} [%t] %m%n</pattern>
+            </PatternLayout>
+            <!--            creates new file after the size exeeds-->
+            <SizeBasedTriggeringPolicy size="500" />
+        </RollingFile>
+        <Console name="Console" target="SYSTEM_OUT">
+            <!--    PatternLayout : what format logs will be displayed -->
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+    </Appenders>
+    <!--    Loggers : logs the information. Logger is used to override Root level
+    additivity="false" avoids duplicated messages that can come from parent levels. This should be used with Logger-->
+    <Loggers>
+        <Logger name="com.myfirstproject.tests" level="trace" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="file"/>
+        </Logger>
+        <!--      Root : provides level to ALL classes on the project
+        By default level = error prints errors and fatal
+        level=trace will logs everything-->
+        <Root level="error">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="file"/>
+        </Root>
+    </Loggers>
+</Configuration>
+        <!-- https://logging.apache.org/log4j/2.x/manual/customloglevels.html
+        Standard Level intLevel
+        OFF    0
+        FATAL  100
+        ERROR  200
+        WARN   300
+        INFO   400
+        DEBUG  500
+        TRACE  600
+        ALL    Integer.MAX_VALUE
+        If i say level="trace", then logs will be anything above trace
+        if I say error, then logs will be error and fatal,..
+        In summary, this xml is used for configuration of log4j
+        There is configuration
+        Under configuration, there is Appenders(where to log) and Loggers(Specify the loggers, how, which ones)
+        Note that we can customize this logger.
+        Add more logger under loggers for custumizing specific package, class,...
+        How to write the log messages to a file? Use RollingFile in apperders.
+        <RollingFile name="Rolling-${sd:type}" fileName="${filename}"
+                              filePattern="target/rolling1/test1-${sd:type}.%i.log.gz">
+                   <PatternLayout>
+                     <pattern>%d %p %c{1.} [%t] %m%n</pattern>
+                   </PatternLayout>
+                   <SizeBasedTriggeringPolicy size="500" />
+                 </RollingFile>
+        -->
