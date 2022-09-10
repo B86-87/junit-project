@@ -23,13 +23,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42f77903-949c-48de-99cb-71e73953a63e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day12_Log4J.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day12_NullPointerException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day12_StaleElementException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day12_Synchronization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day12_TimeOutException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/tests/Day12_Log4JTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/homework/Accordion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/homework/DatePicker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/homework/Synchronization2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/homework/Synchronization3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/homework/Synchronization4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/homework/Toggle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mytestNGproject/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mytestNGproject/src/test/java/techproed/tests/Day13_TestNGAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mytestNGproject/src/test/java/techproed/tests/Day14_DependsOnMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mytestNGproject/src/test/java/techproed/tests/Day14_FirstConfigProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mytestNGproject/src/test/java/techproed/tests/Day14_FirstDriverClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mytestNGproject/src/test/java/techproed/tests/Day14_SoftAssert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mytestNGproject/src/test/java/techproed/tests/Day14_TechproedTitle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mytestNGproject/src/test/java/techproed/utilities/ConfigReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mytestNGproject/src/test/java/techproed/utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../abc/abc.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../com.companyname/com.companyname.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../com.techproed-pom/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../com.techproed-pom/.gitignore" afterDir="false" />
@@ -93,8 +102,6 @@
       <change beforePath="$PROJECT_DIR$/../mymavenproject1/src/test/java/com/techproed/RadioButton.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../mymavenproject1/src/test/java/com/techproed/SignInHomework.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day09_WebTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day09_WebTables.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../testNGframework/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../testNGframework/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../testNGframework/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../testNGframework/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../testNGframework/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../testNGframework/.idea/misc.xml" afterDir="false" />
@@ -153,7 +160,7 @@
       <recent name="$PROJECT_DIR$/drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Day09_WebTables.printTable">
+  <component name="RunManager" selected="JUnit.Synchronization4.test4">
     <configuration name="Day09_WebTables.printTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myseleniumproject" />
       <extension name="coverage">
@@ -166,36 +173,6 @@
       <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day09_WebTables" />
       <option name="METHOD_NAME" value="printTable" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day12_Log4J" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myseleniumproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.myfirstproject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.myfirstproject" />
-      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day12_Log4J" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day12_Log4JTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myseleniumproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.myfirstproject.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.myfirstproject.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.tests.Day12_Log4JTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -216,17 +193,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day12_Log4J.log4jTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Synchronization2.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myseleniumproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.myfirstproject.*" />
+          <option name="PATTERN" value="com.myfirstproject.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.myfirstproject" />
-      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day12_Log4J" />
-      <option name="METHOD_NAME" value="log4jTest" />
+      <option name="PACKAGE_NAME" value="com.myfirstproject.homework" />
+      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.homework.Synchronization2" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Synchronization3.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myseleniumproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myfirstproject.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myfirstproject.homework" />
+      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.homework.Synchronization3" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Synchronization4.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myseleniumproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myfirstproject.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myfirstproject.homework" />
+      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.homework.Synchronization4" />
+      <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -234,11 +243,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Synchronization4.test4" />
+        <item itemvalue="JUnit.Synchronization3.test3" />
+        <item itemvalue="JUnit.Synchronization2.test2" />
         <item itemvalue="JUnit.Day09_WebTables.printTable" />
         <item itemvalue="JUnit.Day12_Log4JTest.test" />
-        <item itemvalue="JUnit.Day12_Log4J.log4jTest" />
-        <item itemvalue="JUnit.Day12_Log4J" />
-        <item itemvalue="JUnit.Day12_Log4JTest" />
       </list>
     </recent_temporary>
   </component>
@@ -290,46 +299,50 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="490" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1661305021830" />
-    <state width="2436" height="906" key="GridCell.Tab.0.bottom" timestamp="1662302559115">
+    <state width="2436" height="3" key="GridCell.Tab.0.bottom" timestamp="1662786513046">
       <screen x="72" y="25" width="2488" height="1415" />
     </state>
     <state width="2508" height="712" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1661824641393" />
     <state width="2508" height="500" key="GridCell.Tab.0.bottom/0.25.2560.1415/2560.25.1920.1055@0.25.2560.1415" timestamp="1662236625520" />
     <state width="2508" height="3" key="GridCell.Tab.0.bottom/65.0.2495.1440/2560.25.1920.1055@65.0.2495.1440" timestamp="1661703767121" />
-    <state width="2253" height="818" key="GridCell.Tab.0.bottom/65.25.2495.1415/2560.25.1920.1055@65.25.2495.1415" timestamp="1661618449301" />
-    <state width="2253" height="334" key="GridCell.Tab.0.bottom/67.25.2493.1415/2560.25.1920.1055@67.25.2493.1415" timestamp="1661618423766" />
-    <state width="2439" height="1087" key="GridCell.Tab.0.bottom/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1661910836207" />
-    <state width="2436" height="906" key="GridCell.Tab.0.bottom/72.25.2488.1415/2560.25.1920.1055@72.25.2488.1415" timestamp="1662302559115" />
-    <state width="2436" height="906" key="GridCell.Tab.0.center" timestamp="1662302559114">
+    <state width="2436" height="610" key="GridCell.Tab.0.bottom/65.25.2495.1415/2560.25.1920.1055@65.25.2495.1415" timestamp="1662784456173" />
+    <state width="2436" height="610" key="GridCell.Tab.0.bottom/67.25.2493.1415/2560.25.1920.1055@67.25.2493.1415" timestamp="1662784383844" />
+    <state width="2436" height="790" key="GridCell.Tab.0.bottom/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1662784361632" />
+    <state width="2436" height="3" key="GridCell.Tab.0.bottom/71.25.2489.1415/2560.25.1920.1055@71.25.2489.1415" timestamp="1662784166141" />
+    <state width="2436" height="3" key="GridCell.Tab.0.bottom/72.25.2488.1415/2560.25.1920.1055@72.25.2488.1415" timestamp="1662786513046" />
+    <state width="2436" height="3" key="GridCell.Tab.0.center" timestamp="1662786513045">
       <screen x="72" y="25" width="2488" height="1415" />
     </state>
     <state width="2508" height="712" key="GridCell.Tab.0.center/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1661824641393" />
     <state width="2508" height="500" key="GridCell.Tab.0.center/0.25.2560.1415/2560.25.1920.1055@0.25.2560.1415" timestamp="1662236625519" />
     <state width="2508" height="3" key="GridCell.Tab.0.center/65.0.2495.1440/2560.25.1920.1055@65.0.2495.1440" timestamp="1661703767120" />
-    <state width="2253" height="818" key="GridCell.Tab.0.center/65.25.2495.1415/2560.25.1920.1055@65.25.2495.1415" timestamp="1661618449300" />
-    <state width="2253" height="334" key="GridCell.Tab.0.center/67.25.2493.1415/2560.25.1920.1055@67.25.2493.1415" timestamp="1661618423765" />
-    <state width="2439" height="1087" key="GridCell.Tab.0.center/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1661910836206" />
-    <state width="2436" height="906" key="GridCell.Tab.0.center/72.25.2488.1415/2560.25.1920.1055@72.25.2488.1415" timestamp="1662302559114" />
-    <state width="2436" height="906" key="GridCell.Tab.0.left" timestamp="1662302559114">
+    <state width="2436" height="610" key="GridCell.Tab.0.center/65.25.2495.1415/2560.25.1920.1055@65.25.2495.1415" timestamp="1662784456173" />
+    <state width="2436" height="610" key="GridCell.Tab.0.center/67.25.2493.1415/2560.25.1920.1055@67.25.2493.1415" timestamp="1662784383843" />
+    <state width="2436" height="790" key="GridCell.Tab.0.center/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1662784361631" />
+    <state width="2436" height="3" key="GridCell.Tab.0.center/71.25.2489.1415/2560.25.1920.1055@71.25.2489.1415" timestamp="1662784166140" />
+    <state width="2436" height="3" key="GridCell.Tab.0.center/72.25.2488.1415/2560.25.1920.1055@72.25.2488.1415" timestamp="1662786513045" />
+    <state width="2436" height="3" key="GridCell.Tab.0.left" timestamp="1662786513044">
       <screen x="72" y="25" width="2488" height="1415" />
     </state>
     <state width="2508" height="712" key="GridCell.Tab.0.left/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1661824641392" />
     <state width="2508" height="500" key="GridCell.Tab.0.left/0.25.2560.1415/2560.25.1920.1055@0.25.2560.1415" timestamp="1662236625519" />
     <state width="2508" height="3" key="GridCell.Tab.0.left/65.0.2495.1440/2560.25.1920.1055@65.0.2495.1440" timestamp="1661703767120" />
-    <state width="2253" height="818" key="GridCell.Tab.0.left/65.25.2495.1415/2560.25.1920.1055@65.25.2495.1415" timestamp="1661618449295" />
-    <state width="2253" height="334" key="GridCell.Tab.0.left/67.25.2493.1415/2560.25.1920.1055@67.25.2493.1415" timestamp="1661618423764" />
-    <state width="2439" height="1087" key="GridCell.Tab.0.left/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1661910836205" />
-    <state width="2436" height="906" key="GridCell.Tab.0.left/72.25.2488.1415/2560.25.1920.1055@72.25.2488.1415" timestamp="1662302559114" />
-    <state width="2436" height="906" key="GridCell.Tab.0.right" timestamp="1662302559115">
+    <state width="2436" height="610" key="GridCell.Tab.0.left/65.25.2495.1415/2560.25.1920.1055@65.25.2495.1415" timestamp="1662784456172" />
+    <state width="2436" height="610" key="GridCell.Tab.0.left/67.25.2493.1415/2560.25.1920.1055@67.25.2493.1415" timestamp="1662784383842" />
+    <state width="2436" height="790" key="GridCell.Tab.0.left/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1662784361630" />
+    <state width="2436" height="3" key="GridCell.Tab.0.left/71.25.2489.1415/2560.25.1920.1055@71.25.2489.1415" timestamp="1662784166139" />
+    <state width="2436" height="3" key="GridCell.Tab.0.left/72.25.2488.1415/2560.25.1920.1055@72.25.2488.1415" timestamp="1662786513044" />
+    <state width="2436" height="3" key="GridCell.Tab.0.right" timestamp="1662786513045">
       <screen x="72" y="25" width="2488" height="1415" />
     </state>
     <state width="2508" height="712" key="GridCell.Tab.0.right/0.0.2560.1440/2560.25.1920.1055@0.0.2560.1440" timestamp="1661824641393" />
     <state width="2508" height="500" key="GridCell.Tab.0.right/0.25.2560.1415/2560.25.1920.1055@0.25.2560.1415" timestamp="1662236625520" />
     <state width="2508" height="3" key="GridCell.Tab.0.right/65.0.2495.1440/2560.25.1920.1055@65.0.2495.1440" timestamp="1661703767121" />
-    <state width="2253" height="818" key="GridCell.Tab.0.right/65.25.2495.1415/2560.25.1920.1055@65.25.2495.1415" timestamp="1661618449301" />
-    <state width="2253" height="334" key="GridCell.Tab.0.right/67.25.2493.1415/2560.25.1920.1055@67.25.2493.1415" timestamp="1661618423765" />
-    <state width="2439" height="1087" key="GridCell.Tab.0.right/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1661910836206" />
-    <state width="2436" height="906" key="GridCell.Tab.0.right/72.25.2488.1415/2560.25.1920.1055@72.25.2488.1415" timestamp="1662302559115" />
+    <state width="2436" height="610" key="GridCell.Tab.0.right/65.25.2495.1415/2560.25.1920.1055@65.25.2495.1415" timestamp="1662784456173" />
+    <state width="2436" height="610" key="GridCell.Tab.0.right/67.25.2493.1415/2560.25.1920.1055@67.25.2493.1415" timestamp="1662784383843" />
+    <state width="2436" height="790" key="GridCell.Tab.0.right/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1662784361631" />
+    <state width="2436" height="3" key="GridCell.Tab.0.right/71.25.2489.1415/2560.25.1920.1055@71.25.2489.1415" timestamp="1662784166140" />
+    <state width="2436" height="3" key="GridCell.Tab.0.right/72.25.2488.1415/2560.25.1920.1055@72.25.2488.1415" timestamp="1662786513045" />
     <state x="664" y="268" width="1537" height="903" key="SettingsEditor" timestamp="1661815804049">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -339,10 +352,11 @@
       <screen x="69" y="25" width="2491" height="1415" />
     </state>
     <state x="488" y="238" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1661818365573" />
-    <state x="486" y="310" key="new project wizard" timestamp="1660605037696">
-      <screen x="69" y="25" width="2491" height="1415" />
+    <state x="488" y="310" key="new project wizard" timestamp="1662304737951">
+      <screen x="72" y="25" width="2488" height="1415" />
     </state>
     <state x="486" y="310" key="new project wizard/69.25.2491.1415/2560.25.1920.1055@69.25.2491.1415" timestamp="1660605037696" />
+    <state x="488" y="310" key="new project wizard/72.25.2488.1415/2560.25.1920.1055@72.25.2488.1415" timestamp="1662304737951" />
     <state x="861" y="324" width="838" height="1032" key="search.everywhere.popup" timestamp="1660506663904">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
